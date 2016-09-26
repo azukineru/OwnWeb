@@ -207,6 +207,7 @@ body{
   float:left;
   background-color: white;
   padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #subcontent2{
@@ -218,12 +219,48 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #subcontent2 p{
   text-align: justify;
   text-justify: inter-word;
   padding-right: 30px;
+}
+
+#subcontent3{
+  width: 70%;
+  height: 85%;
+  float: right;
+  margin-top: -80px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); 
+  border: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid #1dff07; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1dff07;  
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #88ba1c;  
 }
 
 .date-post{
@@ -265,4 +302,11 @@ body{
   z-index: 100;
   top: 0; left: 0; width: 100%; height: 100%;
   background-color: rgba(100,100,100, 0.5);
+}
+
+.menu_about{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 10px;
 }
