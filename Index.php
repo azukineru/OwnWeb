@@ -12,7 +12,7 @@
 
 	<img src="img/bg_line.png" style="width:100%;z-index:2; position:absolute; top:0; left:0;">
 
-	<div id="main_image" style="width: 600; height: 300;margin-left: 100px; margin-top: 0px; position: absolute; z-index:-5;">
+	<div id="main_image" style="width: 600; height: 300;margin-left: 100px; margin-top: -10px; position: absolute; z-index:-5;">
 		<img class="animated bounceInDown" id="second" src="img/main_img.png" />
 	</div>
 
